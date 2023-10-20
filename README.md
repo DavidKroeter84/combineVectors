@@ -7,3 +7,6 @@ Further properties:
 
 > [!NOTE]
 > Thanks GitHub for the great example documentation and how-to for GitHub actions. [This is awesome!](https://docs.github.com/en/actions/examples) :+1:
+
+> [!NOTE]
+> Doxygen documentation is not yet provided due to timing restrictions ;-)
