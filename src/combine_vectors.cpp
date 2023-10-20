@@ -1,6 +1,5 @@
-
 #include "combine_vectors.h"
-#include <vector>
+#include <cstddef>
 
 using namespace combineVectors;
 
@@ -9,7 +8,7 @@ std::vector<int> combineVectors::combine_vectors(const std::vector<int>& vec_1, 
     std::vector<int> res;
     const size_t sz1 = vec_1.size();
     const size_t sz2 = vec_2.size();
-    int idx1 = 0, idx2 = 0;
+    unsigned int idx1 = 0, idx2 = 0;
 
     // While neither of the vectors have reached the end
     while (idx1 < sz1 && idx2 < sz2) {

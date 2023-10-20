@@ -2,6 +2,7 @@
 #include <vector>
 #include <iostream>
 #include <cctype>
+#include <cstddef>
 
 using namespace std;
 using namespace combineVectors;
